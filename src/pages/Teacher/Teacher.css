@@ -1,0 +1,238 @@
+.teacher-box {
+    width     : 100vw;
+    height    : 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* 顶部 */
+.teacher-title {
+    width      : 100%;
+    height     : 1rem;
+    background : #007af5;
+    position   : relative;
+    top        : 0;
+    left       : 0;
+    overflow   : hidden;
+    line-height: 1rem;
+    color      : #fff;
+
+}
+
+.teacher-title span {
+    font-size: 0.4rem;
+}
+
+.teacher-title .icon-wode {
+    position : absolute;
+    right    : 0.2rem;
+    font-size: 0.5rem;
+}
+
+.teacher-title .icon-gengduo {
+    position : absolute;
+    left     : 0.2rem;
+    font-size: 0.5rem;
+}
+
+/* 搜索框 */
+.teacher-search {
+    display        : flex;
+    justify-content: space-between;
+    position       : relative;
+    padding        : 0.3rem;
+}
+
+.teacher-search input {
+    width        : 4rem;
+    height       : 0.7rem;
+    border-radius: 0.2rem;
+    border       : 1px solid #ccc;
+    padding-left : 0.5rem;
+}
+
+.teacher-search .icon-RectangleCopy2 {
+    position: absolute;
+    top     : 0.5rem;
+    left    : 0.45rem;
+}
+
+.teacher-search a {
+    display      : block;
+    background   : #007af5;
+    color        : #fff;
+    padding      : 0 0.3rem;
+    border-radius: 0.15rem;
+    line-height  : 0.7rem;
+}
+
+/* 轮播图 */
+.slider-slide img {
+    width : 100vw;
+    height: 3rem;
+}
+
+.teacher-lbt {
+    width : 100vw;
+    height: 3rem !important;
+}
+
+.am-wingblank {
+    height: 3rem !important;
+}
+
+.am-wingblank .slider {
+    height: 3rem !important;
+}
+
+.am-wingblank .slider .slider-frame {
+    height: 3rem !important;
+}
+
+.slider-list {
+    height: 3rem !important;
+}
+
+/* 问答，周边老师 */
+.teacher-center {
+    width          : 100%;
+    height         : 1.2rem;
+    display        : inline-flex;
+    justify-content: space-around;
+    box-sizing     : border-box;
+    position       : relative;
+    color          : #333;
+    border-bottom  : 1px solid #eeeeee;
+}
+
+.teacher-center .center-left {
+    width       : 50%;
+    height      : 50%;
+    text-align  : left;
+    padding-left: 0.88rem;
+    position    : relative;
+    border-right: 1px solid #eeeeee;
+    margin-top  : 0.2rem;
+}
+
+.teacher-center .center-left .icon-dingwei {
+    position : absolute;
+    font-size: 0.5rem;
+    left     : 0.35rem;
+    top      : 0.05rem;
+    color    : #128deb;
+}
+
+.teacher-center .center-right {
+    width       : 50%;
+    height      : 50%;
+    text-align  : left;
+    padding-left: 0.88rem;
+    position    : relative;
+    margin-top  : 0.2rem;
+}
+
+.teacher-center .center-right .icon-wenti-m {
+    position : absolute;
+    font-size: 0.6rem;
+    left     : 0.2rem;
+    top      : 0.04rem;
+    color    : #ffa32d;
+}
+
+/* 教师logo */
+.teacher-logo {
+    display        : flex;
+    justify-content: space-between;
+}
+
+.teacher-minbox {
+    width    : 25%;
+    height   : 1.62rem;
+    /* border: 1px solid; */
+}
+
+.teacher-minbox div {
+    width        : 70%;
+    height       : 70%;
+    margin       : 0 auto;
+    border-radius: 50%;
+    background   : orange;
+    line-height  : 1.17rem;
+    margin-bottom: 0.1rem;
+}
+
+.teacher-minbox div .iconfont {
+    font-size: 0.7rem;
+    color    : #fff;
+}
+
+.teacher-minbox:nth-child(1) div {
+    background: #0ad927;
+}
+
+.teacher-minbox:nth-child(2) div {
+    background: #f8991b;
+}
+
+.teacher-minbox:nth-child(3) div {
+    background: #128deb;
+}
+
+.teacher-minbox:nth-child(4) div {
+    background: #f06687;
+}
+/* 教师排行 */
+.teacher-top {
+    width     : 100%;
+    box-sizing: border-box;
+    overflow  : hidden;
+    position  : relative;
+}
+.teacher-top .solid{
+    width: 100%;
+    border-top: 1px solid #ccc;
+    /* position: absolute; */
+    margin: 0.5rem 0;
+}
+.teacher-top span {
+    position: absolute;
+    top     : 0.4rem;
+    left    : 50%;
+    margin-left: -0.9rem;
+    display: block;
+    width: 1.8rem;
+    height: 0.27rem;
+    background: #f0eff5;
+    z-index: 100;
+    font-size: 0.3rem;
+}
+
+.top-box {
+    float : left;
+    width : 2.89rem;
+    height: 2.21rem;
+    border: 0.01rem solid #ccc;
+    margin: 0 0.32rem 0.1rem 0.33rem;
+    ;
+    position: relative;
+}
+
+.top-box img:nth-child(1) {
+    width : 100%;
+    height: 80%;
+}
+
+.top-box img:nth-child(2) {
+    width   : 0.8rem;
+    height  : 0.8rem;
+    position: absolute;
+    right   : 0.2rem;
+    bottom  : 0.2rem;
+    border-radius: 50%;
+}
+.top-box p {
+    text-align: left;
+    font-size: 0.16rem;
+    color: #333;
+}

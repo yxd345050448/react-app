@@ -1,0 +1,127 @@
+.homeList-box {
+    background: #f6f6f6;
+    height: 100%;
+    width: 100%;
+}
+
+/* 顶部 */
+.homeList-title {
+    width      : 100%;
+    height     : 1rem;
+    background : #007af5;
+    position   : relative;
+    top        : 0;
+    left       : 0;
+    overflow   : hidden;
+    line-height: 1rem;
+    color      : #fff;
+    text-align : center;
+}
+
+.homeList-title span {
+    font-size: 0.4rem;
+}
+
+.homeList-title .icon-RectangleCopy2 {
+    position : absolute;
+    right    : 0.2rem;
+    font-size: 0.5rem;
+}
+
+/* 列表 */
+.homeList-con {
+    width: 100%;
+}
+
+.con-box {
+    width          : 100%;
+    /* border         : 0.01rem solid; */
+    display        : flex;
+    justify-content: space-between;
+    padding-top    : 0.2rem;
+    margin         : 0.2rem 0;
+    background: #fff;
+}
+
+.con-box .iconfont {
+    font-size: 0.18rem;
+}
+
+.con-box .icon-shouye {
+    color: orange;
+}
+
+.con-box .icon-aixin {
+    color: orchid;
+}
+
+.con-box .icon-dingwei {
+    color: blue;
+}
+
+.con-left {
+    width       : 1.24rem;
+    height      : 100%;
+    margin-right: 0.2rem;
+    padding-top : 0.1rem;
+}
+
+.con-left img {
+    width : 1.24rem;
+    height: 1.24rem;
+}
+
+.homeList-con p {
+    margin: 0;
+}
+
+.con-right {
+    flex: 1;
+}
+
+.right-name {
+    font-size  : 0.2rem;
+    overflow   : hidden;
+    height     : 0.4rem;
+    line-height: 0.4rem;
+    margin-top: 0.1rem;
+}
+
+.right-name-level {
+    font-weight  : bold;
+    border       : 1px solid #9ebb7b;
+    color        : #9ebb7b;
+    padding      : 0.03rem 0.2rem;
+    border-radius: 0.2rem;
+}
+
+.right-name-price {
+    float: right;
+    color: orange;
+}
+
+.right-name-price span {
+    color: #ccc;
+}
+
+.right-exp {
+    font-size: 0.16rem;
+}
+
+.con-right p:nth-of-type(2) {
+    font-size: 0.16rem;
+}
+
+.con-right p:nth-of-type(3) {
+    font-size    : 0.18rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.con-right p:nth-of-type(3) span {
+    margin-left: 0.2rem;
+}
+
+.con-right p:nth-of-type(4) {
+    font-size : 0.18rem;
+    text-align: right;
+}

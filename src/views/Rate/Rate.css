@@ -1,0 +1,9 @@
+
+.item-rate svg {
+    width : 0.2rem;
+    height: 0.2rem;
+}
+
+.item-rate li {
+    margin-right: 0.1rem !important;
+}

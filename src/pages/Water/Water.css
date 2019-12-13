@@ -1,0 +1,125 @@
+.water-box {
+    width     : 100vw;
+    height    : 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* 顶部 */
+.water-title {
+    width      : 100%;
+    height     : 1rem;
+    background : #007af5;
+    position   : relative;
+    top        : 0;
+    left       : 0;
+    overflow   : hidden;
+    line-height: 1rem;
+    color      : #fff;
+
+}
+
+.water-title span {
+    font-size: 0.4rem;
+}
+
+.water-title .icon-wode {
+    position : absolute;
+    right    : 0.2rem;
+    font-size: 0.5rem;
+}
+
+.water-title .icon-gengduo {
+    position : absolute;
+    left     : 0.2rem;
+    font-size: 0.5rem;
+}
+
+/* 水站列表 */
+.water-list {
+    width: 100%;
+}
+
+.water-item {
+    width          : 100%;
+    /* height         : 1.7rem; */
+    border-bottom  : 0.01rem solid #ccc;
+    box-sizing     : border-box;
+    display        : flex;
+    justify-content: space-between;
+    padding        : 0.05rem 0.3rem  0.1rem;
+    margin: 0.1rem 0;
+}
+
+/* 列表左 */
+.item-left {
+    width : 1.72rem;
+    height: 1.57rem;
+}
+
+.item-left img {
+    margin-top: 0.2rem;
+    width     : 1.72rem;
+    height    : 1.27rem;
+}
+
+/* 列表中 */
+.item-center {
+    width : 3.5rem;
+    height: 1.57rem;
+}
+
+.item-center p {
+    text-align: left;
+    margin    : 0;
+}
+
+.item-center span {
+    color: #76bcff;
+}
+
+.item-center p:nth-child(1) {
+    font-size  : 0.24rem;
+    font-weight: bold;
+}
+
+.item-center p:nth-child(2) {
+    font-size: 0.16rem;
+}
+
+.item-center p:nth-child(3) {
+    font-size: 0.16rem;
+}
+
+.item-center div:nth-of-type(1) {
+    text-align: left;
+}
+
+.item-rate {
+    padding-left: 0.2rem !important;
+    height      : 0.2rem;
+}
+
+/* 列表右 */
+.item-right {
+    height: 1.57rem;
+    width : 0.8rem;
+}
+
+.item-right div {
+    width        : 0.8rem;
+    height       : 0.8rem;
+    line-height  : 0.8rem;
+    border-radius: 50%;
+    background   : #fbfbfb;
+}
+
+.item-right div span {
+    font-size: 0.32rem;
+    color    : #ff6600;
+}
+
+.item-right p {
+    margin-top: 0.2rem;
+    font-size : 0.24rem;
+}

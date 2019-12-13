@@ -1,0 +1,91 @@
+.logon-box {
+    width     : 100vw;
+    height    : 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+/* 顶部 */
+.logon-title {
+    width      : 100%;
+    height     : 1rem;
+    background : #007af5;
+    position   : fixed;
+    top        : 0;
+    left       : 0;
+    overflow   : hidden;
+    line-height: 1rem;
+    color      : #fff;
+
+}
+
+.logon-title span {
+    font-size: 0.4rem;
+}
+.logon-ipt {
+    margin-top: 2rem;
+    position  : relative;
+}
+
+.icon-shouji {
+    position: absolute;
+    top     : 1.22rem;
+    left    : 0.9rem;
+}
+
+.tel-yz {
+    position: relative;
+}
+
+.icon-iconfontmima1 {
+    position: absolute;
+    top     : 0.22rem;
+    left    : 0.9rem;
+}
+
+.logon-pass {
+    position: relative;
+}
+
+.icon-mima {
+    position: absolute;
+    top     : 0.22rem;
+    left    : 0.9rem;
+}
+
+.logon-ipt input {
+    width        : 80%;
+    height       : 0.8rem;
+    border-radius: 0.1rem;
+    border       : 1px solid #ccc;
+    padding-left : 0.8rem;
+    margin-bottom: 0.2rem;
+    box-sizing   : border-box;
+}
+
+.tel-yz {
+    position: relative;
+}
+
+.tel-yz .tel-yzm {
+    display      : block;
+    position     : absolute;
+    padding      : 0.1rem 0.4rem;
+    /* height       : 0.4rem; */
+    background   : #197fee;
+    right        : 0.8rem;
+    top          : 0.1rem;
+    line-height  : 0.4rem;
+    border-radius: 0.15rem;
+    color        : #fff;
+}
+
+.logon-btn button {
+    width        : 80%;
+    height       : 0.8rem;
+    border-radius: 0.1rem;
+    border       : none;
+    background   : #007af5;
+    color        : #fff;
+    margin-top   : 0.3rem;
+    font-size    : 0.3rem;
+}

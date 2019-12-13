@@ -1,0 +1,104 @@
+.repair-box {
+    width     : 100vw;
+    height    : 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* 顶部 */
+.repair-title {
+    width      : 100%;
+    height     : 1rem;
+    background : #007af5;
+    position   : relative;
+    top        : 0;
+    left       : 0;
+    overflow   : hidden;
+    line-height: 1rem;
+    color      : #fff;
+
+}
+
+.repair-title span {
+    font-size: 0.4rem;
+}
+
+.repair-title .icon-wode {
+    position : absolute;
+    right    : 0.2rem;
+    font-size: 0.5rem;
+}
+
+.repair-title .icon-gengduo {
+    position : absolute;
+    left     : 0.2rem;
+    font-size: 0.5rem;
+}
+
+/* 维修列表 */
+.repair-list {
+    width: 100%;
+}
+
+.repair-item {
+    width          : 100%;
+    height         : 1.7rem;
+    border-bottom  : 0.01rem solid #ccc;
+    box-sizing     : border-box;
+    display        : flex;
+    justify-content: space-between;
+    padding        : 0.05rem 0.4rem 0 0.4rem;
+}
+
+/* 列表左 */
+.repair-item .item-left {
+    width : 3.5rem;
+    height: 1.57rem;
+}
+
+.repair-item .item-left p {
+    text-align: left;
+    margin    : 0.1rem 0;
+}
+
+.repair-item .item-left span {
+    color: #76bcff;
+}
+
+.repair-item .item-left div:nth-child(1) {
+    font-size  : 0.24rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.repair-item .item-left p:nth-child(1) {
+    font-size: 0.16rem;
+}
+
+.repair-item .item-left p:nth-child(2) {
+    font-size: 0.16rem;
+}
+
+/* 列表右 */
+.repair-item .item-right {
+    height: 1.57rem;
+    width : 0.8rem;
+}
+
+.repair-item .item-right div {
+    width        : 0.8rem;
+    height       : 0.8rem;
+    line-height  : 0.8rem;
+    border-radius: 50%;
+    background   : #fbfbfb;
+}
+
+.repair-item .item-right div span {
+    font-size: 0.32rem;
+    color    : #ff6600;
+}
+
+.repair-item .item-right p {
+    margin-top: 0.2rem;
+    font-size : 0.24rem;
+}

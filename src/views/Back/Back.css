@@ -1,0 +1,9 @@
+
+.back {
+    position: absolute;
+    left    : 0.1rem;
+}
+
+.back .goback {
+    font-size: 0.5rem;
+}

@@ -1,0 +1,178 @@
+.home-box {
+    width     : 100vw;
+    height    : 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* 顶部 */
+.home-title {
+    width      : 100%;
+    height     : 1rem;
+    background : #007af5;
+    position   : relative;
+    top        : 0;
+    left       : 0;
+    overflow   : hidden;
+    line-height: 1rem;
+    color      : #fff;
+
+}
+
+.home-title span {
+    font-size: 0.4rem;
+}
+
+.home-title .icon-wode {
+    position : absolute;
+    right    : 0.2rem;
+    font-size: 0.5rem;
+}
+
+.home-title .icon-gengduo {
+    position : absolute;
+    left     : 0.2rem;
+    font-size: 0.5rem;
+}
+
+/* 搜索框 */
+.home-search {
+    display        : flex;
+    justify-content: space-between;
+    position       : relative;
+    padding        : 0.3rem;
+}
+
+.home-search input {
+    width        : 4rem;
+    height       : 0.7rem;
+    border-radius: 0.2rem;
+    border       : 1px solid #ccc;
+    padding-left : 0.5rem;
+}
+
+.home-search .icon-RectangleCopy2 {
+    position: absolute;
+    top     : 0.5rem;
+    left    : 0.45rem;
+}
+
+.home-search a {
+    display      : block;
+    background   : #007af5;
+    color        : #fff;
+    padding      : 0 0.3rem;
+    border-radius: 0.15rem;
+    line-height  : 0.7rem;
+}
+
+/* 轮播图 */
+.slider-slide img {
+    width : 100vw;
+    height: 3rem;
+}
+
+.home-lbt {
+    width : 100vw;
+    height: 3rem !important;
+}
+
+.am-wingblank {
+    height: 3rem !important;
+}
+
+.am-wingblank .slider {
+    height: 3rem !important;
+}
+
+.am-wingblank .slider .slider-frame {
+    height: 3rem !important;
+}
+
+.slider-list {
+    height: 3rem !important;
+}
+
+/* 家政logo */
+.home-logo {
+    width          : 100%;
+    display        : flex;
+    justify-content: space-around;
+    flex-wrap      : wrap;
+    padding        : 0 0.2rem;
+    box-sizing     : border-box;
+    margin-top     : 0.4rem;
+}
+
+.home-minbox {
+    width        : 1.5rem;
+    height       : 1.5rem;
+    flex-wrap    : wrap;
+    margin-bottom: 0.3rem;
+}
+
+.home-minbox div {
+    width        : 70%;
+    height       : 70%;
+    margin       : 0 auto;
+    border-radius: 30%;
+    background   : orange;
+    line-height  : 1.17rem;
+    margin-bottom: 0.1rem;
+}
+
+.home-minbox div .iconfont {
+    font-size: 0.7rem;
+    color    : #fff;
+}
+
+.home-minbox:nth-child(1) div {
+    background: #30adef;
+}
+
+.home-minbox:nth-child(2) div {
+    background: #696fdf;
+}
+
+.home-minbox:nth-child(3) div {
+    background: #54c537;
+}
+
+.home-minbox:nth-child(4) div {
+    background: #fdc23f;
+}
+.home-minbox:nth-child(5) div {
+    background: #5b79b8;
+}
+.home-minbox:nth-child(6) div {
+    background: #fea401;
+}
+.home-minbox:nth-child(7) div {
+    background: #9c84f0;
+}
+.home-minbox:nth-child(8) div {
+    background: #f06687;
+}
+
+/* 家政广告 */
+.home-top {
+    width          : 100%;
+    box-sizing     : border-box;
+    overflow       : hidden;
+    margin-top     : 0.5rem;
+    display        : flex;
+    justify-content: space-around;
+}
+
+.home-top .top-box {
+    float    : left;
+    width    : 3rem;
+    height   : 1.2rem;
+    border   : 0.01rem solid #ccc;
+    /* margin: 0 0.32rem 0.1rem 0.33rem; */
+}
+
+.home-top .top-box img {
+    width : 100%;
+    height: 100%;
+}

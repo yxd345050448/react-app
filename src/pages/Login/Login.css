@@ -1,0 +1,123 @@
+.login-box {
+    width     : 100vw;
+    height    : 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.login-title {
+    width      : 100%;
+    height     : 1rem;
+    background : #007af5;
+    position   : fixed;
+    top        : 0;
+    left       : 0;
+    overflow   : hidden;
+    line-height: 1rem;
+    color      : #fff;
+
+}
+
+.login-title span {
+    font-size: 0.4rem;
+}
+.login-ipt {
+    margin-top: 2rem;
+}
+
+.login-ipt input {
+    width        : 80%;
+    height       : 0.8rem;
+    border-radius: 0.1rem;
+    border       : 1px solid #ccc;
+    padding-left : 0.4rem;
+    margin-bottom: 0.2rem;
+    box-sizing   : border-box;
+}
+
+.login-btn button {
+    width        : 80%;
+    height       : 0.8rem;
+    border-radius: 0.1rem;
+    border       : none;
+    background   : #007af5;
+    color        : #fff;
+    margin-top   : 0.3rem;
+    font-size    : 0.3rem;
+}
+
+.login-bot {
+    width     : 80%;
+    text-align: right;
+    margin    : 0.2rem auto;
+}
+
+.login-bot a {
+    color: #bdbdbf;
+}
+
+.logon {
+    margin: 0.7rem 0;
+}
+
+.logon a {
+    color    : #333;
+    font-size: 0.2rem;
+}
+
+.login-foot {
+    width     : 80%;
+    height    : 300px;
+    margin    : 0 auto;
+    border-top: 1px solid #ccc;
+    position  : relative;
+}
+
+.login-foot span {
+    text-align: center;
+    background: #f0eff5;
+    display   : block;
+    width     : 1rem;
+    margin    : 0 auto;
+    margin-top: -10px;
+    font-size : 0.3rem;
+    color     : #a5a5a7;
+}
+
+.login-foot p {
+    margin-top: 0.3rem;
+    color     : #333;
+}
+
+.login-foot div {
+    display        : flex;
+    justify-content: space-around;
+    margin-top     : 1rem;
+}
+
+.login-foot div img {
+    width        : 1rem;
+    height       : 1rem;
+    border-radius: 50%;
+}
+
+.login-foot .icon-weixin {
+    font-size : 1rem;
+    color     : seagreen;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.login-foot .icon-QQ {
+    font-size : 1rem;
+    background: #fff;
+    color     : #02a6ed;
+    border-radius: 50%;
+}
+
+.login-foot .icon-weibo {
+    font-size : 1rem;
+    color     : #fa3c49;
+    background: #fff;
+    border-radius: 50%;
+}
